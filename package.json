@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\"",
 		"format": "npx prettier . --check",
-		"lint": "eslint .",
+		"precommit": "eslint .",
 		"prepare": "husky"
 	},
 	"author": "'Valentyn Tyrtychko'",
