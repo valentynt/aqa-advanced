@@ -1,14 +1,23 @@
 {
-  "name": "aqa-advanced",
-  "version": "1.0.0",
-  "description": "aqa-advanced",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "'Valentyn Tyrtychko'",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.3.0"
-  }
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "aqa-advanced",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\"",
+		"format": "npx prettier . --check",
+		"lint": "eslint .",
+		"prepare": "husky"
+	},
+	"author": "'Valentyn Tyrtychko'",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.3.0"
+	},
+	"devDependencies": {
+		"eslint": "^9.6.0",
+		"globals": "^15.8.0",
+		"prettier": "3.3.2",
+		"husky": "^9.0.11"
+	}
 }

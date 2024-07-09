@@ -1,7 +1,10 @@
-function printAfterDelay(text, milliseconds) {
-    setTimeout(() => {
-        console.log(text);
-    }, milliseconds);
+function printAfterDelay(
+	text,
+	milliseconds
+) {
+	setTimeout(() => {
+		console.log(text);
+	}, milliseconds);
 }
 
-printAfterDelay("Hello, world!", 2000);
+printAfterDelay('Hello, world!', 2000);
