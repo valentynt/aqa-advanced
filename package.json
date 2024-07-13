@@ -4,7 +4,7 @@
 	"description": "aqa-advanced",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\"",
+		"test": "jest",
 		"format": "npx prettier . --check",
 		"precommit": "eslint .",
 		"prepare": "husky"
@@ -16,9 +16,13 @@
 		"chalk": "^5.3.0"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.24.8",
+		"@babel/preset-env": "^7.24.8",
+		"babel-jest": "^29.7.0",
 		"eslint": "^9.6.0",
 		"globals": "^15.8.0",
 		"husky": "^9.0.11",
+		"jest": "^29.7.0",
 		"prettier": "3.3.2"
 	}
 }
