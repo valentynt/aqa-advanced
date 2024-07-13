@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../axiosConfig';
 
 test('Get all posts and expect status code 200', async () => {
 	const response = await axios.get(
