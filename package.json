@@ -6,6 +6,7 @@
 	"scripts": {
 		"test": "jest",
 		"test:report": "jest --reporters=default --reporters=jest-html-reporters",
+		"test:watch": "jest --watch --reporters=jest-html-reporters",
 		"format": "npx prettier . --check",
 		"precommit": "eslint .",
 		"prepare": "husky"
