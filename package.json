@@ -1,0 +1,32 @@
+{
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "aqa-advanced",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:report": "jest --reporters=default --reporters=jest-html-reporters",
+		"test:watch": "jest --watch --reporters=jest-html-reporters",
+		"format": "npx prettier . --check",
+		"precommit": "eslint .",
+		"prepare": "husky"
+	},
+	"author": "'Valentyn Tyrtychko'",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.7.2",
+		"chalk": "^5.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.8",
+		"@babel/preset-env": "^7.24.8",
+		"babel-jest": "^29.7.0",
+		"eslint": "^9.6.0",
+		"eslint-plugin-jest": "^28.6.0",
+		"globals": "^15.8.0",
+		"husky": "^9.0.11",
+		"jest": "^29.7.0",
+		"jest-html-reporters": "^3.1.7",
+		"prettier": "3.3.2"
+	}
+}
